@@ -1,39 +1,43 @@
-/* add your CSS here */
 .card {
     position: relative;
     background-color: #fff;
-    border-radius: 10px;
     border-style: solid;
     border-width: 0.5px;
     border-color: lightgrey;
-    width: 350px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-    text-align: justify;
-    padding: 20px;
+    width: 305px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+    padding: 8px;
+    padding-top: 2px;
     margin-left: auto;
     margin-right: auto;
   }
   .cardDetails{
-    
-    text-align: justify;
-    margin: auto;
-    width: 300px; 
     border-style: solid;
     border-width: 1px;
     border-color: lightgrey;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin:auto;
+    width: 300px;
+}
+.wrapperDiv {
+    padding-right:8px;
+    padding-left:8px;
+    padding-bottom:8px;
+}
+.animalTitle{
+    text-align: center;
+    width: 60px;
+    font-weight: bolder;
+}
+.fact{
+    letter-spacing: 0.5px;
+    font-size: 14px;   
 }
   img {
     width: 300px;
     height: 200px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    
+    margin: auto;
+    padding-bottom: 10px;  
   }
   ul,
   li {
